@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 49px;/*tamanho da fonte*/
+    line-height: 56px; /*tamanho da linha*/ 
+    margin-bottom: 32px;
+}
+#hero{
+    width: 592px;/*cria uma caixa e alinha o que tem dentro perfeitamente mas tira da centralização do body corrigindo com a margem*/
+    margin: 0 auto 72px;
+    /*sequencia da margem funciona no sentido horario no caso (cima,direita,baixo,esquerda)*/
+    /*neste caso a margem pega o primeiro valor para top, o auto fica mais para as laterais no caso ele centraliza e a terceira fica para o componente abaixo*/
+    /*margem corrige o problema com o alinhamento do componente body no caso do auto*/
+
+}
+#hero img{
+    margin-bottom: 72px;
+}
+h1 span{
+    font-weight: bold;
+    /*especifica que o bold vai ser usado na tag span dentro de h1*/
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #7D7987;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
+/*aqui pode ser colocado tbm body,p,a tudo junto pois ele faz a ligação com todos que estiverem na tag principal ou separadamente*/
+a{
+    font-family: 'Open Sans', sans-serif;
+    color: #ff9900;
+}
+
+span{
+     color: #ff9900
+}
+
+#footer a + a{
+    margin-left: 28px;
+/*esse + se lê da direita para a esquerda no caso o comando diz que ele quer uma margem de 28px no ultimo A para outro A mas os 28 seja adicionado no lado esquerdo*/
+}
+#footer .line{
+    width: 568px;
+    height: 0;
+    border: 1px solid #ECEFF2;
+    margin: 0 auto 8px;   
+    font-size: 14px;
+    line-height: 28px; 
+}
+.balls {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
